@@ -37,7 +37,7 @@ const client = new ApolloClient({
 
 const keycloak = new Keycloak({
   url: "http://127.0.0.1:8080",
-  realm: "gihyo-ms",
+  realm: "cartify-ms",
   clientId: "frontend",
 });
 

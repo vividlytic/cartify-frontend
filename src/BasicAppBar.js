@@ -1,4 +1,5 @@
 import AppBar from "@mui/material/AppBar";
+import Button from "@mui/material/Button";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
@@ -20,7 +21,9 @@ export default function ButtonAppBar(props) {
         </Typography>
         <Cart cart={props.cart} />
         <OrderHistory />
-        {/* <Button color="inherit" onClick={logout}>ログアウト</Button> */}
+        <Button color="inherit" onClick={logout}>
+          ログアウト
+        </Button>
       </Toolbar>
     </AppBar>
   );
